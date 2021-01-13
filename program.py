@@ -20,7 +20,7 @@ def get_similar(result_array):
 				int_distance = result_array[x] - result_array[x+1]
 				if (int_distance <= 0.25):
 					sureness += 1.0/(len(result_array)-1)
-					print (str(sureness))
+					#print (str(sureness))
 					similar_num = result_array[x]
 
 
